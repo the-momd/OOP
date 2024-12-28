@@ -14,7 +14,7 @@ use App\Utilities\User as UserUtil;
 $r = rand(0,100);
 var_dump($r);
 if($r < 50){
-        $Person1 = new Person;
+    $Person1 = new Person;
     $Person1->printName();
 }
 
